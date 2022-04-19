@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Agaric" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Edible\Toxic\AdultPlant\Agaric.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AgaricDying" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Edible\Toxic\Dying\AgaricDying.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Beaver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Animals\Herbivores\Beaver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bobcat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Animals\Carnivores\bobcat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Animals\Herbivores\Cow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hedgehog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Animals\Omnivores\Hedgehog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Leopard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Animals\Carnivores\Leopard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MaidenGrapesBerry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Edible\ToxicWithBerrie\AdultPlant\MaidenGrapesBerry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MaidenGrapesBerryDying" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Edible\ToxicWithBerrie\Dying\MaidenGrapesBerryDying.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MaidenGrapesBerrySprout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Edible\ToxicWithBerrie\Sprout\MaidenGrapesBerrySprout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MaidenGrapesBush" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Edible\ToxicWithBerrie\AdultPlant\MaidenGrapesBush.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MaidenGrapesBushDying" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Edible\ToxicWithBerrie\Dying\MaidenGrapesBushDying.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="man" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Animals\Human\man.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mouse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Animals\Omnivores\Mouse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nettle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Edible\NonToxic\AdultPlant\Nettle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NettleDying" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Edible\NonToxic\Dying\NettleDying.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Panda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Animals\Omnivores\Panda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rabbit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Animals\Herbivores\Rabbit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RaspberryBerry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Edible\NonToxicWithBerrie\AdultPlant\RaspberryBerry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RaspberryBerryDying" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Edible\NonToxicWithBerrie\Dying\RaspberryBerryDying.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RaspberryBerrySprout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Edible\NonToxicWithBerrie\Sprout\RaspberryBerrySprout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RaspberryBush" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Edible\NonToxicWithBerrie\AdultPlant\RaspberryBush.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RaspberryBushDying" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Edible\NonToxicWithBerrie\Dying\RaspberryBushDying.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RaspberrySprout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Edible\NonToxicWithBerrie\Sprout\RaspberrySprout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SakuraLeaf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Inedible\WithBerrie\SakuraLeaf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SakuraLeafDying" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Inedible\WithBerrie\SakuraLeafDying.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SakuraLeafSprout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Inedible\WithBerrie\SakuraLeafSprout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SakuraTree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Inedible\WithBerrie\SakuraTree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SakuraTreeDying" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Inedible\WithBerrie\SakuraTreeDying.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Seed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Seed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SproutAgaric" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Edible\Toxic\Sprout\SproutAgaric.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SproutNonToxic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Edible\NonToxic\Sprout\SproutNonToxic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SproutSakura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Inedible\WithBerrie\SproutSakura.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SproutToxicBerrie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Edible\ToxicWithBerrie\Sprout\SproutToxicBerrie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SproutTree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Inedible\Tree\SproutTree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Inedible\Tree\Tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TreeDying" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Plants\Inedible\Tree\TreeDying.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WinterMan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Animals\Human\WinterMan .png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WintersBobcat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Animals\WinterImage\WintersBobcat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WintersCow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Animals\WinterImage\WintersCow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WintersMouse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Animals\WinterImage\WintersMouse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WintersPanda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Animals\WinterImage\WintersPanda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WintersRabbit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Animals\WinterImage\WintersRabbit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WintersWolf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Animals\WinterImage\WintersWolf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WinterWoman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Animals\Human\WinterWoman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wolf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Animals\Carnivores\Wolf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="woman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gaming Tools\Images\Animals\Human\woman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
